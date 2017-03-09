@@ -4,6 +4,7 @@
 This app is adapted from the [Tour of Heroes](https://angular.io/resources/live-examples/toh-6/ts/eplnkr.html) app from the [Angular Tutorial](https://angular.io/docs/ts/latest/tutorial/)
 
 This app can be run in three different ways.
+
 1. Run with JIT
 2. Run with AOT
 3. Run with Universal

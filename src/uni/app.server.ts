@@ -4,9 +4,6 @@ import { ServerModule } from '@angular/platform-server';
 import { AppComponent } from '../app/app.component';
 import { AppModule } from '../app/app.module';
 
-// shim the WHATWG URL class when running on the server.
-require('isomorphic-url').shim();
-
 @NgModule({
   imports: [
     ServerModule,

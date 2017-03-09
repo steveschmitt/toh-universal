@@ -14,8 +14,7 @@ module.exports = {
 	},
 	plugins: [
 		new ngtools.AotPlugin({
-			tsConfigPath: './tsconfig-uni.json',
-			typeChecking: false
+			tsConfigPath: './tsconfig-uni.json'
 		})
 	],
 	module: {
